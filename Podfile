@@ -7,6 +7,7 @@ target 'Profiles' do
 
   # Pods for Profiles
   pod 'Alamofire', '~> 4.0'
+  pod 'SwiftyJSON', '~> 3.1.0'
 
   target 'ProfilesTests' do
     inherit! :search_paths
