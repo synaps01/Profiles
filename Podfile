@@ -6,6 +6,7 @@ target 'Profiles' do
   use_frameworks!
 
   # Pods for Profiles
+  pod 'Alamofire', '~> 4.0'
 
   target 'ProfilesTests' do
     inherit! :search_paths
